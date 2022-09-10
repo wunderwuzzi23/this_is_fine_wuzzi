@@ -40,4 +40,5 @@ Any messages printed out to the console won't be displayed, unless you specify.
 Leared that this issue exists first via Security Now Podcast which pointed to this blog post from Checkmarx:
 
 * Checkmarx: [Automatic Execution of Code Upon Package Download on Python Package Manager](https://medium.com/checkmarx-security/automatic-execution-of-code-upon-package-download-on-python-package-manager-cd6ed9e366a8)
+* Blog Post on [Embrace The Red](https://embracethered.com/blog/posts/2022/python-package-manager-install-and-download-vulnerability/)
 
