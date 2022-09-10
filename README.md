@@ -19,7 +19,8 @@ This will create a `./dist/` folder containing the wheel `whl` and `tar.gz` file
 
 ## Host the package in pypi-server
 
-One option to test and host the package yourself is using `pypi-server`.
+One option to test and host the package yourself is using `pypi-server`, e.g `pip install pypiserver`. 
+Then you can run a server with:
 
 ```
 pypi-server run -v -p 8080 ./packages
@@ -41,4 +42,5 @@ Learned that this issue first via Security Now Podcast which pointed to this pos
 
 * Checkmarx: [Automatic Execution of Code Upon Package Download on Python Package Manager](https://medium.com/checkmarx-security/automatic-execution-of-code-upon-package-download-on-python-package-manager-cd6ed9e366a8)
 * Blog Post on [Embrace The Red](https://embracethered.com/blog/posts/2022/python-package-manager-install-and-download-vulnerability/)
+* https://pypi.org/project/pypiserver/
 
