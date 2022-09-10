@@ -51,7 +51,7 @@ Note:Any messages printed out to the console won't be displayed by pip, unless y
 
 That's it for the basic repo.
 
-Scary stuff.
+Very important to be aware of!
 
 ## Mitigations
 
