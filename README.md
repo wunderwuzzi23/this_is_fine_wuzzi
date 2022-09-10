@@ -1,6 +1,6 @@
-# Welcome!
+# Welcome to this_is_fine_wuzzi
 
-Basic PyPi package that runs a command upon download or install.
+Basic PyPi package that runs a command upon `pip download` or `pip install`.
 
 ## Explanation
 
@@ -33,11 +33,11 @@ And finally copy the tar.gz file to your pypi-server's `./packages` folder.
 pip download this_is_fine_wuzzi --index-url http://localhost:8080 -v
 ```
 
-Any messages printed out to the console won't be displayed, unless you specify.
+Any messages printed out to the console won't be displayed, unless you specify `-v`.
 
 ## References
 
-Leared that this issue exists first via Security Now Podcast which pointed to this blog post from Checkmarx:
+Learned that this issue first via Security Now Podcast which pointed to this post from Checkmarx:
 
 * Checkmarx: [Automatic Execution of Code Upon Package Download on Python Package Manager](https://medium.com/checkmarx-security/automatic-execution-of-code-upon-package-download-on-python-package-manager-cd6ed9e366a8)
 * Blog Post on [Embrace The Red](https://embracethered.com/blog/posts/2022/python-package-manager-install-and-download-vulnerability/)
