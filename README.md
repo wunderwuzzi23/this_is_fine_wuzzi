@@ -54,7 +54,7 @@ This way one can see what files are hosted for the package (tar or wheel, or bot
 
 ## References
 
-Learned that this issue first via Security Now Podcast which pointed to this post from Checkmarx:
+Learned that this issue first via Security Now! Podcast which pointed to this post from Checkmarx:
 
 * Checkmarx: [Automatic Execution of Code Upon Package Download on Python Package Manager](https://medium.com/checkmarx-security/automatic-execution-of-code-upon-package-download-on-python-package-manager-cd6ed9e366a8)
 * Blog Post on [Embrace The Red](https://embracethered.com/blog/posts/2022/python-package-manager-install-and-download-vulnerability/)
