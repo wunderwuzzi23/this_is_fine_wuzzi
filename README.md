@@ -15,7 +15,7 @@ This basic example just prints: `print("Hello, p0wnd!")`
 python -m build
 ```
 
-This will create a `./dist/` folder containing the wheel and tar.gz files.
+This will create a `./dist/` folder containing the wheel `whl` and `tar.gz` files.
 
 ## Host the package in pypi-server
 
