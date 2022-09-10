@@ -17,6 +17,16 @@ python -m build
 
 This will create a `./dist/` folder containing the wheel `whl` and `tar.gz` files.
 
+### Pre-requisites
+
+In case you encounter errors building, make sure to have `setuptools` and `build` packages installed.
+
+```
+pip install setuptools
+pip install build
+```
+
+
 ## Host the package in pypi-server
 
 One option to test and host the package yourself is using `pypi-server`, e.g `pip install pypiserver`. 
