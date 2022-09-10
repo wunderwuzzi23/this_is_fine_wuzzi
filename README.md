@@ -30,11 +30,27 @@ And finally copy the tar.gz file to your pypi-server's `./packages` folder.
 
 ## Download or Install the package
 
+Now it's possible to trigger the extra command by either downloading or installing the package:
+
 ```
 pip download this_is_fine_wuzzi --index-url http://localhost:8080 -v
 ```
 
-Any messages printed out to the console won't be displayed, unless you specify `-v`.
+This will run the custom script and print `Hello, p0wnd!` out. 
+Note:Any messages printed out to the console won't be displayed by pip, unless you specify `-v`.
+
+That's it for the basic repo.
+
+Scary stuff.
+
+## Mitigations
+
+The `setup.py` is only executed if the package is in `tar.gz` format. So, either reviewing the tar file or making sure there is a wheel file (`.whl`) present and used.
+
+You can enumerate the offered packages via `https://packagemanager/simple/<package-name>`.
+
+This way one can see what files are hosted for the package (tar or wheel, or both), and download (e.g. `wget`) and inspect the `tar.gz` file if that is the only option.
+
 
 ## References
 
